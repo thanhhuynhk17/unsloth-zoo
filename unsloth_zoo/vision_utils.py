@@ -53,6 +53,8 @@ import math
 import requests
 from typing import Union, Tuple
 import base64
+from io import BytesIO
+
 IMAGE_FACTOR = 28
 MIN_PIXELS = 4 * 28 * 28
 MAX_PIXELS = 16384 * 28 * 28
